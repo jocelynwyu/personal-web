@@ -1,0 +1,165 @@
+.everything-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgb(255, 255, 255);
+    object-fit: contain;
+}
+
+.intro {
+    width: 70vw;
+    display: flex;
+    flex-direction: row; /* Make the text and image align horizontally */
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 6%;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    width: 70%; /* Adjust as needed */
+}
+
+.name,
+.blurb {
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.about {
+    font-size: 17px;
+}
+
+.home-image {
+    /* width: 300px; */
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    width: 70vw;
+    display: flex;
+    flex-direction: row; /* Make the text and image align horizontally */
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 20px;
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.experience {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.title-and-company {
+    font-size: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.time {
+    font-size: 17px;
+    text-align: left; /* Align text to the left */
+    opacity: 50%;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: left; /* Align text to the left */
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+
+.projects {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.title-and-company {
+    font-size: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.major {
+    font-size: 17px;
+    text-align: left; /* Align text to the left */
+    opacity: 50%;
+}
+
+.time {
+    font-size: 17px;
+    text-align: left; /* Align text to the left */
+    opacity: 50%;
+}
+
+.school {
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: left; /* Align text to the left */
+    margin-bottom: 10px;
+
+}
+
+.club {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: left; /* Align text to the left */
+    margin-bottom: 10px;
+
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: left; /* Align text to the left */
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+  
+.contact-info {
+    text-align: center;
+    color: black;
+    font-family: 'Playfair Regular 400 Italic', serif;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    margin-top: 35px;
+}
+
+.contact-info p {
+    margin-bottom: 17px;
+}
+
+.email {
+    text-align: center;
+    color: black;
+    font-size: 0.75rem;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 950px) {
+    .home-text{
+        width: 80vw;
+    }
+
+    .home-image{
+        margin-right: -400px;
+        margin-left: 200px;
+    }
+}

@@ -1,0 +1,193 @@
+.cards {
+  background: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: -5px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+.cards_items {
+  display: flex;
+  flex-direction: row; /* Change to row to make items appear next to each other */
+  align-items: center;
+  justify-content: center; /* Align items horizontally */
+  width: 70vw;
+}
+
+.cards__item__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: all 0.2s linear;
+  border: 1px solid #ccc; /* Add light border around the image */
+}
+
+.cards__item__inner {
+  margin-bottom: 100px;
+  display: flex;
+  /* width: 30vw; */
+}
+
+.book__title {
+  color: #252e48;
+  text-align: center;
+  margin-left: 17px;
+  margin-right: 27px;
+
+}
+
+.cards__item__text {
+  font-size: 13px;
+  line-height: 17px;
+  width: auto;
+  margin-top: 20px;
+  
+}
+
+.description__text {
+  margin-left: 25px;
+  font-size: 17px;
+  width: 30vw;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.proj-text {
+  font-size: 17px;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  line-height: 27px;
+}
+
+.book__title {
+  font-size: 27px;
+  line-height: 10px;
+}
+
+.mySwiper {
+  width: 40vw;
+  height: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(204, 224, 231);
+  width: 300px;
+  border: 1px solid #ccc; /* Add light border around the arrows */
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+  margin-right: 10%;
+}
+
+.proj-title {
+  width: 70vw;
+  display: flex;
+  flex-direction: row; /* Make the text and image align horizontally */
+  align-items: flex-start; /* Align items to the top */
+  text-align: left;
+  margin-top: 20px;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.experience {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.skills-box {
+  background: rgb(204, 224, 231);
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 13px;
+  
+}
+
+.skills-wrap {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  flex-wrap: wrap; /* Allow items to wrap if they exceed the width */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+
+.proj-github {
+  color: #000000;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  display: flex; /* Add flex display */
+  justify-content: center; /* Center horizontally */
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 930px) {
+
+  .cards__item__img {
+    width: 100%; /* Take full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .cards__item__inner {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .cards__item__text,
+  .description__text,
+  .book__title {
+    color: #252e48;
+    text-align: center;
+    margin: 0;
+    width: auto;
+  }
+
+  .description__text {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .mySwiper {
+    width: 70vw;
+    height: 100%;
+  }
+
+  .proj-text {
+    width: 50vw;
+  }
+  
+}
+
+@media only screen and (max-width: 160px) {
+  .rows {
+    display: inline;
+    margin: auto;
+    width: 100px;
+  }
+
+  .text {
+    align-items: center;
+    align-self: center;
+  }
+}

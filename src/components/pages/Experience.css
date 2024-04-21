@@ -1,0 +1,155 @@
+.everything-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgb(255, 255, 255);
+    object-fit: contain;
+}
+
+.experience-title {
+    width: 70vw;
+    display: flex;
+    flex-direction: row; /* Make the text and image align horizontally */
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 20px;
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.experience {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.title-and-company {
+    font-size: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.time {
+    font-size: 17px;
+    text-align: left; /* Align text to the left */
+    opacity: 50%;
+}
+
+.experience-description {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: left; /* Align text to the left */
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 56vw;
+}
+
+
+.projects {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.experience-text{
+    width: 70vw;
+    margin-left: 30px;
+}
+
+.experience-image img{
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+.experience-container {
+    display: flex;
+  }
+
+  @media screen and (max-width: 930px) {
+    .experience-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-title {
+        display: flex;
+        flex-direction: column;
+}
+
+.experience {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.title-and-company {
+    font-size: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.time {
+    font-size: 17px;
+    text-align: left; /* Align text to the left */
+    opacity: 50%;
+}
+
+.experience-description {
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 75vw;
+    margin-left: 0;
+}
+
+
+.projects {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.experience-image img{
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+.experience-container {
+    display: flex;
+  }
+  
+  .experience-text{
+        /* width: 70vw; */
+        align-self: center;
+        text-align: center;
+        align-items: center;  
+        margin: 0px;
+}
+
+.experience,
+.projects,
+.experience-text,
+.experience-container{
+
+        align-self: center;
+        align-items: center;
+        width: 70vw;
+    }
+    
+    .experience-title{
+        display: flex;
+        flex-direction: column;
+    }
+}

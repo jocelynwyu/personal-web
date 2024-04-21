@@ -1,0 +1,162 @@
+.everything-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgb(255, 255, 255);
+    object-fit: contain;
+}
+
+.school-text{
+    width: 50vw;
+    margin-left: 30px;
+}
+
+.school-image img{
+    overflow: hidden;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.ed-title {
+    width: 70vw;
+    display: flex;
+    flex-direction: row; /* Make the text and image align horizontally */
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 20px;
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.experience {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.title-and-company {
+    font-size: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.major {
+    font-size: 15px;
+    text-align: left; /* Align text to the left */
+    opacity: 50%;
+}
+
+.time {
+    font-size: 15px;
+    text-align: left; /* Align text to the left */
+    opacity: 50%;
+}
+
+.school {
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: left; /* Align text to the left */
+    margin-bottom: 10px;
+    width: 60vw;
+
+}
+
+.club {
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: left; /* Align text to the left */
+    margin-bottom: 10px;
+
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: left; /* Align text to the left */
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+
+.coursework-box {
+    background: rgb(204, 224, 231);
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 13px;
+    
+  }
+
+  .school-container {
+    display: flex;
+  }
+  
+  .image {
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .text {
+    flex-grow: 1;
+  }
+  
+  @media screen and (max-width: 1250px) {
+    .school {
+        margin-top: 10px;
+        font-size: 17px;
+        text-align: left; /* Align text to the left */
+        margin-bottom: 10px;
+        width: 50vw;
+    
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    .school {
+        margin-top: 10px;
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 10px;
+        width: 70vw;
+        align-self: center;
+    }
+    .school-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .school-text{
+        width: 70vw;
+        align-self: center;
+        text-align: center;
+        align-items: center;  
+        margin: 0px;
+}
+    .school-image img,
+    .school-container,
+    .experience,
+    .title-and-company,
+    .major,
+    .time,
+    .school,
+    .club,
+    .description,
+    .coursework-box,
+    .ed-title{
+
+        align-self: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .ed-title{
+        display: flex;
+        flex-direction: column;
+    }
+}
